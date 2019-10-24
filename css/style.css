@@ -1,0 +1,64 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+/* Top Menu */
+
+.navbar {
+    margin-top: 23px;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+}
+
+.side-l {
+    float: left;
+    padding-left: 20px;
+}
+
+.side-r {
+    float: right;
+    padding-right: 20px;
+}
+
+/* Google Logo and Search */
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+input {
+    width: 35%;
+    border-radius: 30px;
+    height: 34px;
+    border: 1px solid #e4e4e4;
+}
+
+button {
+    margin: 15px 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    padding: 10px 16px;
+}
+ 
+/* Footer Menu */
+
+.f-navbar {
+    margin-top: 15px;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: rgb(242, 242, 242);
+    border-top: 1px solid #e4e4e4;
